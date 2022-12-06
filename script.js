@@ -56,9 +56,9 @@ function getData(form) {
       deleteBtn.innerText = 'x';
       deleteBtn.style.position = 'absolute';
       deleteBtn.style.top = '0';
-      deleteBtn.style.backgroundColor = '#ff000061';
+      deleteBtn.style.backgroundColor = '#9E8279';
       deleteBtn.style.borderRadius = '50%'
-      deleteBtn.style.color = 'white';
+      deleteBtn.style.color = '#f5f6f7';
       deleteBtn.style.padding = '5px';
       paraTitle.innerText = `Title: ${input.title}`;
       paraAuthor.innerText = `Author: ${input.author}`;
