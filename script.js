@@ -53,16 +53,26 @@ function getData(form) {
     } else {e.target.textContent = 'Read'};
   });
 
-      deleteBtn.innerText = 'x';
-      deleteBtn.style.position = 'absolute';
-      deleteBtn.style.top = '0';
-      deleteBtn.style.backgroundColor = '#9E8279';
-      deleteBtn.style.borderRadius = '50%'
-      deleteBtn.style.color = '#f5f6f7';
-      deleteBtn.style.padding = '5px';
-      paraTitle.innerText = `Title: ${input.title}`;
-      paraAuthor.innerText = `Author: ${input.author}`;
-      paraPages.innerText = `Pages: ${input.pages}`;
+  deleteBtn.innerText = 'x';
+  deleteBtn.style.fontSize = '0.75rem';
+  deleteBtn.style.position = 'absolute';
+  deleteBtn.style.top = '0';
+  deleteBtn.style.backgroundColor = '#9E8279';
+  deleteBtn.style.borderRadius = '30%';
+  deleteBtn.style.color = '#f5f6f7';
+  deleteBtn.style.padding = '5px';
+  paraTitle.innerText = `Title: ${input.title}`;
+  paraTitle.style.borderBottom = '1px solid black';
+  paraTitle.style.fontSize = '1rem';
+  paraTitle.style.fontWeight = 'bold';
+  paraAuthor.innerText = `Author: ${input.author}`;
+  paraAuthor.style.borderBottom = '1px solid black';
+  paraAuthor.style.fontSize = '1rem';
+  paraAuthor.style.fontWeight = 'bold';
+  paraPages.innerText = `Pages: ${input.pages}`;
+  paraPages.style.borderBottom = '1px solid black';
+  paraPages.style.fontSize = '1rem';
+  paraPages.style.fontWeight = 'bold';
 
       deleteBtn.addEventListener('click', function(e){ 
         console.log(e);
